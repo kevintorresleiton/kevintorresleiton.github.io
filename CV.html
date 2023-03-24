@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Curriculum Vitae" />
+    <meta property="og:type" content="article" />
+    <!-- url de la página donde se subirá -->
+    <meta property="og:url" content=" http://www.example.com" />
+    <!-- imagen previsualizada que vamos a mostrar -->
+    <meta property="og:image" content=" http://example.com/image.jpg" />
+    <meta property="og:description" content="CV de Kevin Torres" />
+    <link rel="stylesheet" type="text/css" href="C:\Users\kevin\OneDrive\Escritorio\proyecto final\estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Curriculum Vitae Kevin Torres</h1>
+    </header>
+    <!-- button -->
+    <button id="boton" onclick="mostrarimagen ();">Mostrar Foto</button>
+    <section id="foto">
+        <img src="https://img.a.transfermarkt.technology/portrait/header/28003-1671435885.jpg?lm=1" width="100px" height="150px" alt="foto de perfil Kevin Torres">   
+        <button id="boton" onclick="ocultarimagen ();">Ocultar Foto</button>
+    </section>
+    <!-- button -->
+    <button id="boton" onclick="mostrardatos ();">Datos</button>
+    <section id="datos">
+                 
+        <h2> Datos:</h2>
+        <span> <h3>Nombre: Kevin Leonel</h3> </span>
+        <span> <h3>Apellido: Torres Leiton</h3> </span>
+        <span> <h3>D.N.I: 35.386.199</h3> </span>
+        <span> <h3>Nacionalidad: Argentino</h3> </span>
+        <span> <h3>Código Postal: 6300</h3> </span>
+        <span> <h3>Dirección: Tupungato 1028 casa 799</h3> </span>
+        <button id="boton" onclick="ocultardatos ();">Ocultar datos</button>   
+    </section>
+    <!-- button -->
+    <button id="boton" onclick="mostraracademica ();">Formación Académica</button>
+    <section id="academica">
+         <h2>Formación Académica:</h2>
+    <ul>
+        <li>Escuela primaria Nº 74 "Manuel Belgrano"</li>
+        <li>Escuela para adultos Nº4 "Cnel. Remigio Gil"</li>
+        <li>Colegio Secundario "Polivalente de Arte"</li>
+    </ul>
+    <h2>Formación Universitaria/terciaria:</h2>
+    <ul>
+        <li>Efermero Profesional (1 año)</li>
+        <li>Lic. en Comunicación Social (1 año)</li>
+        <li>Tec. en Desarrollo de Software (en curso)</li>
+    </ul>
+    <h2>Otras capacitaciones:</h2>
+    <ul>
+        <li>Informática y herramientas de oficina (Biblioteca de A.T.E)</li>
+        <li>Técnico en reparación de PC(Centro de Formación Profesional Nro 3)</li>
+        <li>Asist. de Abogado y trámites judiciales (Instituto Giuseppe)</li>
+    </ul>
+    <button id="boton" onclick="ocultaracademica ();">Ocultar Formación Académica</button>
+    </section>
+    <!-- button -->
+    <button id="boton" onclick="mostrarexperiencia ();">Experiencia Laboral</button>
+    <section id="experiencia">
+        <h2>Experiencia Laboral:</h2>
+    <h4>Ayudante de cocina</h4>
+    <ul>
+        <li>Pizzería "Quijote" (Santa Rosa, La Pampa)</li>
+        <li>Pizzería "PizzaClub"(Santa Rosa, La Pampa)</li>
+        <li>Restobar "Azar" (San Rafael, Mendoza)</li>
+        <li>Restobar "Las Viñas" (Santa Rosa, La Pampa)</li>
+        <li>Pizzería "PizzaQuatro" (Santa Rosa, La Pampa)</li>
+        <li>Bar "710" (Santa Rosa, La Pampa)</li>
+        <li>Restobar "Mirá quien vino!" (Santa Rosa, La Pampa)</li>
+        <li>Cervecería "Berlín" (Santa Rosa, La Pampa)</li>
+    </ul>
+    <h4>Seguridad y Vigilancia Perimetral</h4>
+    <ul>
+        <li>Falcon S.A</li>  
+    </ul>
+    <h4>Comercios</h4>
+    <ul>
+        <li>Kiosco "La Terminal"</li>  
+    </ul>
+    <h4>Construcción</h4>
+    <ul>
+        <li>Ayudante de Albañil Particular</li>  
+    </ul>
+    <h4>Reparto y Mensajería</h4>
+    <ul>
+        <li>Cadetería "Las Malvinas"</li> 
+        <li>Cadetería "Sagrado Corazón"</li> 
+    </ul>
+    <button id="boton" onclick="ocultarexperiencia ();">Ocultar Experiencia Laboral</button>
+    </section>
+    <!-- button -->
+    <button id="boton" onclick="mostraridiomas ();">Manejo de Idiomas</button>
+    <section id="idiomas">
+        
+        <h2>Manejo de Idiomas:</h2>
+    <h4>Inglés</h4>
+    <ul>
+        <li>Básico</li>  
+    </ul>
+    <button id="boton" onclick="ocultaridiomas ();">Ocultar Manejo de Idiomas</button>
+    </section>
+    <!-- button -->
+    <button id="boton" onclick="mostrarpasatiempos ();">Pasatiempos</button>
+    <section id="pasatiempos">
+        <article>
+        <h2>Pasatiempos:</h2>
+    <h4>Músico</h4>
+    <p> Desde 2007 que empecé a tocar guitarra, adopté como pasatiempos componer mis propias canciones, 
+        tomando como referencias las bandas que escuchaba, en su mayoría de Metal 
+        que ayudaron a animarme a integrar las propias.
+        Fue así que a partir de 2016, conformé la banda "Phowa" luego de pasos por otras de ambito local,
+        donde en esta tuve la responsabilidad en selección de músicos, composición y manager.
+        Haciendomé cargo también de las guitarras (principales y rítmicas) y de los bajos, en 2018 grabamos dos sencillos títulados
+        "En caída libre" y "Sepulcro Espectro".
+        Ya en 2021 por cuestiones laborales decidí separarme de la banda cediendo mis composiciones y responsabilidades al resto de la misma,
+        para componer, grabar y mezclar de manera multi intrumentista, solista y variada en lo que corresponde a género, en mi hogar.
+        Hoy a la fecha ya cuento con varias maquetas en desarrollo y terminadas para la publicación futuras en plataformas streaming.
+    </p>
+    </article>
+        
+    <article>
+        <iframe width="320" height="240" 
+        src="https://www.youtube.com/embed/7GhkRcf9yTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>">
+    <iframe width="320" height="240" 
+        src="https://www.youtube.com/embed/iy6Gj4aSois" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+    </article>
+    <button id="boton" onclick="ocultarpasatiempos ();">Ocultar Pasatiempos</button>
+    </section>        
+    
+   
+<!-- no olvidar agrega footer en el pie de pagina -->
+
+
+
+<script src="C:\Users\kevin\OneDrive\Escritorio\proyecto final\function.js"></script>
+</body>
+</html>

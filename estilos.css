@@ -1,0 +1,119 @@
+
+html {
+    width: 1300px;
+    height: 2800px;
+    background-color: rgb(247, 244, 253);
+    border:inset rgb(164, 155, 221);
+    padding-top:20px ;
+    padding-bottom: 20px ;
+    padding-left: 20px ;
+    padding-right: 20px ;
+   
+}
+header {
+    
+    width: 60%;
+    float:none;
+}
+h1 {
+    
+    background-color: rgb(201, 194, 238);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(90, 84, 134);
+    width: 600px;
+    font-family: 'Domine', serif;
+    float: center;
+    margin-bottom: 100px;
+    margin-left: 350px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h2 {
+    color:indigo;
+    width: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3 {
+    color:rgb(63, 25, 138);
+    width: 350px;
+    height: 15px;
+    font: 1em sans-serif;
+    font-size: medium;
+}
+h4 {
+    color:rgb(30, 1, 87);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    width: 350px;
+    height: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 5px;
+    margin: 5px;
+}
+li {
+    color:rgb(82, 67, 114);
+    font: 1em sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin-right: 5px;
+    
+}
+p {
+    background-color: rgb(201, 194, 238);
+    font: 1em sans-serif;
+    color: rgb(67, 18, 90);
+    font-size:medium ;
+    border-left:solid rgb(141, 46, 204);
+    padding-top:10px ;
+    padding-bottom: 10px ;
+    padding-left: 10px ;
+    padding-right: 10px ;
+}
+body {
+    width: 100%;  
+}
+section {
+   padding-left: 300px  ;
+   padding-right: 300px  ; 
+   width: 60%;
+   float: right;
+}
+ul {
+    background-color: rgb(244, 237, 250);
+    border-left:solid rgb(141, 46, 204);
+}
+button {
+    color: rgb(130, 67, 189);
+    background-color: rgb(241, 228, 253);
+    width: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 150px;
+    float: left;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    margin-left: 580px;
+    margin-right: 550px;
+    margin-bottom: 5px;
+}
+.boton {
+    display: none;
+    flex-direction: column 1;
+
+}
+img {
+    
+    margin-left: 385px;
+    margin-right: 550px;
+
+}
+article {
+margin-left: 100px
+};
